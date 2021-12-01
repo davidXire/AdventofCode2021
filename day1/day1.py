@@ -1,4 +1,4 @@
-def main():
+def s1():
     prev = 0
     current = 0
     count_inc = 0
@@ -19,7 +19,7 @@ def main():
     print(count_inc)
     print("## TERMINATE ##")
 
-def main_p2():
+def s2():
     prev_sum = 0
     sum = 0
     count_inc = 0
