@@ -37,11 +37,11 @@ def s2():
         if sum > prev_sum:
           if (prev_sum != 0):
             count_inc += 1
-            print ("{} (increased)".format(sum))
-          else:
-            print ("{} (N/A - no previous sum)".format(sum))
-        else:
-          print ("{} (decrease)".format(sum))
+            # print ("{} (increased)".format(sum))
+          # else:
+            # print ("{} (N/A - no previous sum)".format(sum))
+        # else:
+          # print ("{} (decrease)".format(sum))
         prev_sum = sum
         sum = 0
         index -= 2
