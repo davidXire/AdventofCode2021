@@ -42,7 +42,7 @@ def s1():
       i += 1
 
     print("## RESULT S1 ##")
-    print("G:{}, E:{}".format(gamma, epsilon))
+    # print("G:{}, E:{}".format(gamma, epsilon))
     print(binaryToDecimal(gamma) * binaryToDecimal(epsilon))
     print("## TERMINATE S1 ##")
 
@@ -54,7 +54,7 @@ def s2():
     line_len = len(inputlist[0])
 
     oxygen = inputlist.copy()
-    co2 = inputlist.copy()
+    co2 = inputlist
 
     while i < line_len:
       oxygen.sort(key=itemgetter(i), reverse=True)
@@ -94,8 +94,8 @@ def s2():
       #print(np.matrix(co2))
 
     print("## RESULT S2 ##")
-    print(binaryToDecimal(''.join(co2[0])))
-    print(binaryToDecimal(''.join(oxygen[0])))
+    # print(binaryToDecimal(''.join(co2[0])))
+    # print(binaryToDecimal(''.join(oxygen[0])))
     # print("G:{}, E:{}".format(gamma, epsilon))
     print(binaryToDecimal(''.join(co2[0])) * binaryToDecimal(''.join(oxygen[0])))
     print("## TERMINATE S2 ##")
