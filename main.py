@@ -6,4 +6,5 @@ from day3 import day3
 if __name__ == "__main__":
   start_time = time.time()
   day3.s1()
+  day3.s2()
   print("--- %s seconds ---" % (time.time() - start_time))
